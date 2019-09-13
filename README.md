@@ -15,68 +15,59 @@ the frog can jump either 1,2,3,4,...,9 steps until it reaches the other river ba
 #### Question:
 What is the average number of jumps required to reach the other side of the river bank?
 
-Sample output from: `python main.py -n 1000 -s 10`
+Sample output from: `python main.py -n 10 -s 10 -H`
 
-1000 frogs jumping over 10 lily pads.
+10 frogs jumping over 10 lily pads.
 ```
-סּ _ _ סּ _ _ _ _ _ סּ
-סּ סּ _ _ _ _ _ _ סּ סּ
-סּ _ סּ _ _ _ _ _ _ סּ
-סּ _ _ סּ _ _ סּ סּ _ סּ
-סּ _ _ _ _ סּ _ סּ _ סּ
-סּ _ _ _ _ סּ _ _ סּ סּ
-סּ _ _ _ _ סּ סּ _ _ סּ
-סּ _ _ _ _ _ _ סּ _ סּ
-סּ _ _ סּ _ _ _ _ _ סּ
-סּ _ _ סּ _ _ _ סּ _ סּ
-סּ _ _ _ סּ _ סּ _ _ סּ
-סּ _ _ _ סּ סּ _ _ _ סּ
-סּ סּ _ _ _ _ _ _ _ סּ
-סּ _ _ _ _ _ _ סּ סּ סּ
-סּ סּ _ _ _ _ _ _ _ סּ
-סּ _ סּ _ _ _ _ סּ סּ סּ
-סּ _ _ _ _ _ _ סּ _ סּ
-סּ _ _ _ _ סּ סּ _ _ סּ
-סּ _ _ _ סּ _ _ _ סּ סּ
-סּ _ _ _ _ סּ _ סּ סּ סּ
-סּ _ _ _ _ _ _ _ _ סּ
-סּ _ _ _ _ סּ _ _ סּ סּ
-סּ _ _ _ _ _ _ _ _ סּ
-סּ _ _ _ _ _ _ _ סּ סּ
-סּ _ _ _ סּ _ סּ _ _ סּ
-סּ _ _ _ סּ סּ _ _ _ סּ
-סּ _ סּ _ _ _ _ _ סּ סּ
-סּ _ סּ _ _ _ _ _ _ סּ
-סּ _ סּ _ סּ _ _ _ סּ סּ
-סּ _ _ _ _ _ _ _ _ סּ
-סּ סּ _ _ _ _ _ _ סּ סּ
-סּ _ _ _ _ _ _ _ סּ סּ
-סּ _ _ _ _ _ _ סּ _ סּ
-סּ _ _ _ _ _ _ סּ סּ סּ
-סּ סּ _ _ _ _ _ _ _ סּ
-סּ _ _ סּ סּ _ _ _ _ סּ
-סּ _ סּ _ _ _ _ סּ סּ סּ
-סּ _ _ _ _ _ סּ סּ סּ סּ
-סּ _ _ _ _ _ _ סּ סּ סּ
-סּ _ _ _ סּ _ סּ _ סּ סּ
-סּ _ _ _ _ _ _ סּ _ סּ
-סּ _ _ _ _ _ _ סּ _ סּ
-סּ _ _ _ _ _ _ סּ סּ סּ
-סּ _ _ _ סּ סּ _ _ _ סּ
-סּ _ _ _ _ סּ סּ סּ _ סּ
-סּ _ _ _ _ _ _ _ _ סּ
-סּ _ _ סּ _ _ סּ _ סּ סּ
-סּ _ _ _ _ סּ _ סּ סּ סּ
-סּ _ _ _ _ _ _ סּ סּ סּ
-סּ _ סּ _ _ _ _ סּ סּ סּ
-סּ _ _ סּ _ _ _ _ _ סּ
-סּ _ _ סּ _ _ סּ סּ _ סּ
-סּ _ _ _ _ סּ _ סּ סּ סּ
-סּ _ _ _ _ _ _ _ _ סּ
-סּ _ סּ _ _ _ _ סּ סּ סּ
-סּ _ _ _ _ _ _ סּ סּ סּ
+סּ _ _ סּ _ _ _ סּ סּ סּ   |  Frog ID: 0
+סּ _ סּ _ _ סּ _ סּ סּ סּ   |  Frog ID: 1
+סּ סּ _ _ _ _ _ סּ סּ סּ   |  Frog ID: 2
+סּ _ _ _ _ _ _ _ סּ סּ   |  Frog ID: 3
+סּ _ _ סּ _ _ _ _ _ סּ   |  Frog ID: 4
+סּ _ _ _ סּ _ _ סּ _ סּ   |  Frog ID: 5
+סּ _ סּ _ _ _ _ סּ _ סּ   |  Frog ID: 6
+סּ סּ _ _ _ _ סּ _ _ סּ   |  Frog ID: 7
+סּ _ _ _ _ _ _ סּ סּ סּ   |  Frog ID: 8
+סּ _ _ _ _ _ _ _ _ סּ   |  Frog ID: 9
+
+The number of average jumps is: 3.0 for 10 steps
 
 Frog jumping histogram:
-[1000, 91, 115, 144, 167, 204, 241, 323, 476, 1000]
-Favourite lily pad (Exluding start & end):  9
+[10, 2, 2, 2, 1, 1, 1, 6, 5, 10]
+Favourite lily pad (Exluding start & end):  8
+
+    2 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
+    3 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
+    4 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
+    5 | סּסּסּסּסּסּסּ
+    6 | סּסּסּסּסּסּסּ
+    7 | סּסּסּסּסּסּסּ
+    8 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
+    9 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
+
 ```
+
+#### Usage:
+```
+usage: main.py [-h] [-s TOTAL_STEPS] [-n TOTAL_FROGS] [-f FROG_SYMBOL]
+               [-p SLEEP] [-G] [-H]
+
+Sample usage: python main.py -n 50 -s 50 -f "סּ" -p 0.3 -G
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s TOTAL_STEPS, --TOTAL_STEPS TOTAL_STEPS
+                        Total jump steps
+  -n TOTAL_FROGS, --TOTAL_FROGS TOTAL_FROGS
+                        Total frog samples
+  -f FROG_SYMBOL, --FROG_SYMBOL FROG_SYMBOL
+                        Symbol used to represent frogs
+  -p SLEEP, --SLEEP SLEEP
+                        Only applicable if simulation of frog jumping is
+                        desired
+  -G, --TUI             if '-G' is provided, simulation of frogs jumping will
+                        be displayed
+  -H, --HISTORY         if '-H' is provided, the frog jumping history will be
+                        printed
+```
+

@@ -19,31 +19,34 @@ Sample output from: `python main.py -n 10 -s 10 -H`
 
 10 frogs jumping over 10 lily pads.
 ```
-סּ _ _ סּ _ _ _ סּ סּ סּ   |  Frog ID: 0
-סּ _ סּ _ _ סּ _ סּ סּ סּ   |  Frog ID: 1
-סּ סּ _ _ _ _ _ סּ סּ סּ   |  Frog ID: 2
-סּ _ _ _ _ _ _ _ סּ סּ   |  Frog ID: 3
-סּ _ _ סּ _ _ _ _ _ סּ   |  Frog ID: 4
-סּ _ _ _ סּ _ _ סּ _ סּ   |  Frog ID: 5
-סּ _ סּ _ _ _ _ סּ _ סּ   |  Frog ID: 6
-סּ סּ _ _ _ _ סּ _ _ סּ   |  Frog ID: 7
-סּ _ _ _ _ _ _ סּ סּ סּ   |  Frog ID: 8
-סּ _ _ _ _ _ _ _ _ סּ   |  Frog ID: 9
+סּ _ _ _ _ _ סּ _ סּ סּ   |  Frog ID: 0
+סּ _ סּ _ _ _ _ סּ _ סּ   |  Frog ID: 1
+סּ _ _ סּ סּ סּ _ _ _ סּ   |  Frog ID: 2
+סּ _ _ סּ _ _ _ _ _ סּ   |  Frog ID: 3
+סּ _ _ _ _ _ _ סּ _ סּ   |  Frog ID: 4
+סּ _ _ _ _ _ סּ סּ סּ סּ   |  Frog ID: 5
+סּ _ _ _ _ סּ סּ _ סּ סּ   |  Frog ID: 6
+סּ _ סּ _ _ סּ _ סּ _ סּ   |  Frog ID: 7
+סּ _ _ _ _ סּ סּ סּ _ סּ   |  Frog ID: 8
+סּ _ _ _ סּ סּ _ סּ _ סּ   |  Frog ID: 9
 
-The number of average jumps is: 3.0 for 10 steps
+-> A total of **10** frogs jumped!
+   The number of average jumps is: 3.4 for 10 lily pads
 
-Frog jumping histogram:
-[10, 2, 2, 2, 1, 1, 1, 6, 5, 10]
-Favourite lily pad (Exluding start & end):  8
+   Frog jumping histogram:
+   [10, 0, 2, 2, 2, 5, 4, 6, 3, 10]
 
-    2 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
-    3 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
-    4 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
-    5 | סּסּסּסּסּסּסּ
-    6 | סּסּסּסּסּסּסּ
-    7 | סּסּסּסּסּסּסּ
-    8 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
-    9 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
+   Favourite lily pad (Exluding start & end):  8
+
+   Normalized Histogram:
+    2 |
+    3 | סּסּסּסּסּסּסּסּסּסּסּסּסּ
+    4 | סּסּסּסּסּסּסּסּסּסּסּסּסּ
+    5 | סּסּסּסּסּסּסּסּסּסּסּסּסּ
+    6 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
+    7 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
+    8 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
+    9 | סּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּסּ
 
 ```
 
